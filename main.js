@@ -50,7 +50,7 @@ function iniciarDesafio() {
 function avaliarResposta(){
 
     //Criar as constantes que preciso
-    const nome = document.getElementById("nome").value;
+    const nome = document.getElementById("name").value;
     const resposta = document.getElementById("resposta").value;
     const textoDesafio = document.querySelector("#resultado h3").innerText;
 
